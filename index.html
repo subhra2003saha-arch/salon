@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Glow Unisex Salon | Best Hair, Skin & Bridal Makeup Services</title>
+    <meta name="description" content="Welcome to Urban Glow Unisex Salon. We offer premium haircuts, styling, keratin treatments, facials, bridal makeup, and nail extensions for men and women.">
+    <meta name="keywords" content="unisex salon near me, best hair salon, bridal makeup, keratin treatment, facial, nail extension, urban glow salon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page { display: none; }
+        .page.active { display: block; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" onclick="showPage('home')" class="flex items-center space-x-2">
+                <span class="text-2xl font-bold tracking-wider text-amber-600 uppercase">Urban Glow</span>
+                <span class="text-xs bg-gray-900 text-white px-2 py-0.5 rounded tracking-widest uppercase">Unisex</span>
+            </a>
+            <nav class="hidden md:flex space-x-6 font-medium text-gray-600">
+                <a href="#" onclick="showPage('home')" class="hover:text-amber-600 transition">Home</a>
+                <a href="#" onclick="showPage('about')" class="hover:text-amber-600 transition">About Us</a>
+                <a href="#" onclick="showPage('services')" class="hover:text-amber-600 transition">Services</a>
+                <a href="#" onclick="showPage('pricing')" class="hover:text-amber-600 transition">Pricing</a>
+                <a href="#" onclick="showPage('gallery')" class="hover:text-amber-600 transition">Gallery</a>
+                <a href="#" onclick="showPage('blog')" class="hover:text-amber-600 transition">Blog</a>
+                <a href="#" onclick="showPage('contact')" class="hover:text-amber-600 transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#" onclick="showPage('contact')" class="bg-amber-600 text-white px-5 py-2.5 rounded-full font-semibold shadow-md hover:bg-amber-700 transition inline-block">Book Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+
+        <section id="home" class="page active">
+            <div class="bg-gradient-to-r from-gray-950 to-gray-800 text-white py-24 px-4 text-center relative overflow-hidden">
+                <div class="max-w-3xl mx-auto relative z-10">
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">Glow Up Your Style at Urban Glow</h1>
+                    <p class="text-lg md:text-xl text-gray-300 mb-8">Premium Hair, Skin, and Beauty Services tailored meticulously for both Men & Women.</p>
+                    <div class="space-x-4">
+                        <a href="#" onclick="showPage('contact')" class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-md font-bold transition">Book Appointment</a>
+                        <a href="#" onclick="showPage('services')" class="bg-transparent border border-white hover:bg-white hover:text-black text-white px-6 py-3 rounded-md font-bold transition">Our Services</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-4xl mx-auto text-center py-16 px-4">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Welcome to Urban Glow Unisex Salon</h2>
+                <div class="w-16 h-1 bg-amber-600 mx-auto mb-6"></div>
+                <p class="text-gray-600 text-lg leading-relaxed">Where trend meets tradition. We are a premier modern salon dedicated to bringing out your inner glow. Whether you need a fresh haircut, a rejuvenating skin treatment, or a stunning bridal makeover, our expert stylists and technicians use top-tier products to deliver flawless results tailored just for you.</p>
+            </div>
+
+            <div class="bg-gray-100 py-16 px-4">
+                <div class="max-w-7xl mx-auto">
+                    <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Popular Luxury Services</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
+                            <i class="fa-solid fa-scissors text-4xl text-amber-600 mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">Expert Hair Care</h3>
+                            <p class="text-gray-600 mb-4">Advanced haircuts, global dynamic coloring, and restorative premium hair spas.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
+                            <i class="fa-solid fa-sparkles text-4xl text-amber-600 mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">Skin Aesthetics</h3>
+                            <p class="text-gray-600 mb-4">Rejuvenating premium facials, deep cleanups, and custom advanced skin treatments.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
+                            <i class="fa-solid fa-wand-magic-sparkles text-4xl text-amber-600 mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">Bridal & Party Grooming</h3>
+                            <p class="text-gray-600 mb-4">Celebrity-grade HD bridal makeup, elegant styling, and stunning nail extensions.</p>
+                        </div>
+                    </div>
+                    <div class="text-center mt-10">
+                        <a href="#" onclick="showPage('services')" class="text-amber-600 font-bold hover:underline">View All 15 Services &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-7xl mx-auto py-16 px-4">
+                <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Why Choose Urban Glow?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">1</div>
+                        <h4 class="font-bold text-lg mb-1">Expert Stylists</h4>
+                        <p class="text-sm text-gray-500">Highly trained global industry professionals.</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">2</div>
+                        <h4 class="font-bold text-lg mb-1">Premium Products</h4>
+                        <p class="text-sm text-gray-500">Only skin-safe, premium international brands.</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">3</div>
+                        <h4 class="font-bold text-lg mb-1">Hygienic & Clean</h4>
+                        <p class="text-sm text-gray-500">A strictly sanitized, modern dynamic ambiance.</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">4</div>
+                        <h4 class="font-bold text-lg mb-1">Tailored Care</h4>
+                        <p class="text-sm text-gray-500">One-on-one personal styling consultations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-900 text-white py-16 px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold mb-12">What Our Clients Say</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                        <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-amber-500">
+                            <p class="italic text-gray-300 mb-4">"Urban Glow is hands down the best salon in town! Got a Keratin treatment done, and my hair has never felt healthier."</p>
+                            <span class="font-bold text-amber-500">- Sarah M.</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-amber-500">
+                            <p class="italic text-gray-300 mb-4">"Great ambiance and highly professional staff. Their beard grooming and facial packages are totally worth it."</p>
+                            <span class="font-bold text-amber-500">- Rahul K.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <div class="max-w-4xl mx-auto py-16 px-4">
+                <h1 class="text-4xl font-bold text-gray-900 mb-2">Our Story</h1>
+                <p class="text-amber-600 font-semibold mb-6">Redefining Self-Care & Premium Aesthetics</p>
+                <div class="prose text-gray-600 space-y-4 text-lg">
+                    <p>Every great look begins with a vision. Urban Glow Unisex Salon was founded with a simple mission: to provide world-class grooming and beauty transformation services under one single roof. We firmly believe that self-care isn't a simple luxury; it’s an active lifestyle.</p>
+                    <p>We systematically combine cutting-edge trends with timeless classic techniques to ensure you walk out looking and feeling your absolute best every single time.</p>
+                </div>
+
+                <div class="mt-12 bg-amber-50 p-6 rounded-lg border border-amber-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Experience & Certifications</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><i class="fa-solid fa-certificate text-amber-600 mr-2"></i> Over 10+ Years of Professional Collective Industry Experience</li>
+                        <li><i class="fa-solid fa-certificate text-amber-600 mr-2"></i> Certified Master L'Oréal & Schwarzkopf Hair Experts</li>
+                        <li><i class="fa-solid fa-certificate text-amber-600 mr-2"></i> Advanced International Skin Aesthetics Certifications</li>
+                        <li><i class="fa-solid fa-certificate text-amber-600 mr-2"></i> Award-Winning Professional Bridal Makeup Experts</li>
+                    </ul>
+                </div>
+
+                <div class="mt-12">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Meet Our Master Stylists</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-white p-4 shadow rounded text-center">
+                            <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3 flex items-center justify-center text-xl font-bold text-gray-400">Stylist</div>
+                            <h4 class="font-bold">Alex Mercer</h4>
+                            <p class="text-xs text-amber-600">Master Hair Architect</p>
+                        </div>
+                        <div class="bg-white p-4 shadow rounded text-center">
+                            <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3 flex items-center justify-center text-xl font-bold text-gray-400">Skin</div>
+                            <h4 class="font-bold">Elena Rostova</h4>
+                            <p class="text-xs text-amber-600">Senior Aesthetician</p>
+                        </div>
+                        <div class="bg-white p-4 shadow rounded text-center">
+                            <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-3 flex items-center justify-center text-xl font-bold text-gray-400">Makeup</div>
+                            <h4 class="font-bold">Priya Sharma</h4>
+                            <p class="text-xs text-amber-600">Celebrity Makeup Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="page">
+            <div class="max-w-7xl mx-auto py-16 px-4">
+                <h1 class="text-4xl font-bold text-center text-gray-900 mb-2">Our Comprehensive Styling Services</h1>
+                <p class="text-center text-gray-500 mb-12">Indulge in top-tier services expertly customized for your individual look.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Hair Cut</h3>
+                        <p class="text-sm text-gray-600">From classic trims to modern pixies and high fades, get an absolute bespoke haircut that perfectly complements your unique face structure.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Hair Styling</h3>
+                        <p class="text-sm text-gray-600">Red carpet-ready dynamic curls, sleek straight styles, and elegant artistic updos tailored for any major special occasion.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Hair Coloring</h3>
+                        <p class="text-sm text-gray-600">Vibrant full global hair color, precise root touch-ups, and trendy high-definition highlights using premium ammonia-free formulas.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Hair Spa</h3>
+                        <p class="text-sm text-gray-600">Revitalize dry, heavily damaged hair and combat extreme hair fall with our deeply nourishing multi-vitamin scalp-care spa systems.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Keratin Treatment</h3>
+                        <p class="text-sm text-gray-600">Say absolute goodbye to unruly frizz. Get flawlessly smooth, exceptionally shiny, and beautifully manageable hair that lasts months.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Smoothening</h3>
+                        <p class="text-sm text-gray-600">Achieve an incredibly natural straight, ultra-silky flowing texture with our safe, premium conditioning smoothening therapy.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Rebonding</h3>
+                        <p class="text-sm text-gray-600">Permanently transform thick curly or wavy hair patterns into perfectly poker-straight, radiant, ultra-glossy solid locks.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Beard Grooming</h3>
+                        <p class="text-sm text-gray-600">Sharp pristine beard trims, accurate line-ups, and highly soothing hot-towel essential oil beard spa sessions.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Facial</h3>
+                        <p class="text-sm text-gray-600">Deeply rejuvenating, brightening, anti-aging, and botanical facials engineered expertly for your direct individual skin matrix.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Cleanup</h3>
+                        <p class="text-sm text-gray-600">Instantly remove deeply embedded pollutants, stubborn blackheads, and persistent tan with our fast, refreshing express skin cleanups.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Bridal Makeup</h3>
+                        <p class="text-sm text-gray-600">Look absolutely breathtaking on your monumental day with elite personalized luxury HD and Airbrush bridal packages.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Party Makeup</h3>
+                        <p class="text-sm text-gray-600">Stunningly glamorous makeup executions perfect for high-profile anniversaries, corporate events, and gala festivities.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Nail Extension</h3>
+                        <p class="text-sm text-gray-600">Flawless long-lasting gel extensions, durable acrylic structural overlays, and unique custom hand-painted luxury nail art.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Manicure & Pedicure</h3>
+                        <p class="text-sm text-gray-600">Deeply pamper your hardworking hands and feet within our calming therapeutic, exfoliating, and massaging aromatic routines.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Skin Treatment</h3>
+                        <p class="text-sm text-gray-600">Targeted high-tech skin correction treatments formulated systematically for stubborn acne, dense pigmentation, and wide open pores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="page">
+            <div class="max-w-4xl mx-auto py-16 px-4">
+                <h1 class="text-4xl font-bold text-center text-gray-900 mb-2">Transparent Menu Rates</h1>
+                <p class="text-center text-gray-500 mb-10">Premium services at completely honest, standard rates.</p>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-gray-900 text-white uppercase text-sm tracking-wider">
+                                <th class="p-4">Category</th>
+                                <th class="p-4">Service</th>
+                                <th class="p-4 text-right">Starting From</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 text-gray-700">
+                            <tr>
+                                <td class="p-4 font-bold text-amber-600" rowspan="3">Hair Design</td>
+                                <td class="p-4">Men's / Women's Classic Haircut</td>
+                                <td class="p-4 text-right font-medium">$25+ / $45+</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">Global Ammonia-Free Color</td>
+                                <td class="p-4 text-right font-medium">$80+</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">Pro-Keratin / Smoothening System</td>
+                                <td class="p-4 text-right font-medium">$120+</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-bold text-amber-600" rowspan="2">Skin Care & Grooming</td>
+                                <td class="p-4">Premium Micro-Exfoliating Facial</td>
+                                <td class="p-4 text-right font-medium">$50+</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">Luxury Beard Styling & Hot Towel Spa</td>
+                                <td class="p-4 text-right font-medium">$20+</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-bold text-amber-600" rowspan="2">Artistry & Nails</td>
+                                <td class="p-4">Luxury Gel Nail Extensions with Custom Art</td>
+                                <td class="p-4 text-right font-medium">$60+</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">Celebrity HD Bridal Makeup Package</td>
+                                <td class="p-4 text-right font-medium">$250+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-xs text-gray-400 mt-4 text-center">*Final prices may vary based on structural hair lengths, density metrics, and unique custom skin aesthetic treatments chosen.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="page">
+            <div class="max-w-6xl mx-auto py-16 px-4">
+                <h1 class="text-4xl font-bold text-center text-gray-900 mb-2">Our Transformation Gallery</h1>
+                <p class="text-center text-gray-500 mb-12">Witness spectacular before-and-after premium results.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-4 shadow rounded">
+                        <img src="c:\Users\DELL\Downloads\ChatGPT Image Jun 24, 2026, 10_12_22 PM.png" alt="Premium Hair Smoothening Real Client Transformation" class="w-full h-auto object-cover rounded mb-4 shadow-sm">
+                        <h4 class="font-bold text-center text-gray-900">Premium Hair Smoothening Real Client Transformation</h4>
+                    </div>
+                    <div class="bg-white p-4 shadow rounded">
+                        <img src="c:\Users\DELL\Downloads\photo 2.png" alt="Advanced Hydrating Skin Facial Acne Therapy" class="w-full h-auto object-cover rounded mb-4 shadow-sm">
+                        <h4 class="font-bold text-center text-gray-900">Advanced Hydrating Skin Facial Acne Therapy</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="page">
+            <div class="max-w-3xl mx-auto py-16 px-4">
+                <span class="text-amber-600 uppercase tracking-widest font-bold text-sm">Expert Blog</span>
+                <h1 class="text-4xl font-extrabold text-gray-900 mt-1 mb-6">Best Hair Care Tips During Summer</h1>
+                
+                <div class="prose prose-amber max-w-none text-gray-700 space-y-6 leading-relaxed">
+                    <p>Summer brings sunshine, vacations, and outdoor fun, but it can also be one of the toughest seasons for your hair. The intense heat, humidity, sweat, and UV rays can leave your hair dry, frizzy, and damaged. The good news? With a few simple habits, you can keep your hair healthy and beautiful all summer long.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">1. Protect Your Hair from the Sun</h3>
+                    <p>Just like your skin, your hair needs protection from harmful UV rays. Whenever you step outside for long periods, wear a hat, scarf, or cap. This helps prevent dryness, color fading, and sun damage.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">2. Stay Hydrated</h3>
+                    <p>Healthy hair starts from within. During summer, your body loses more water through sweating, which can affect your hair's health. Drink plenty of water throughout the day to keep your scalp and hair hydrated.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">3. Wash Your Hair Wisely</h3>
+                    <p>Sweat and dust can build up on your scalp during hot weather. Wash your hair 2–3 times a week using a mild, sulfate-free shampoo. Avoid washing too frequently, as it can strip away natural oils and make your hair even drier.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">4. Don't Skip Conditioning</h3>
+                    <p>Conditioner is your best friend during summer. It helps lock in moisture, reduces frizz, and keeps your hair smooth and manageable. Focus on the mid-lengths and ends of your hair for the best results.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">5. Use a Hair Serum</h3>
+                    <p>A lightweight hair serum can protect your hair from humidity and reduce frizz. It also adds shine and makes styling easier, especially on hot and humid days.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">6. Avoid Excessive Heat Styling</h3>
+                    <p>Summer already exposes your hair to plenty of heat. Try to minimize the use of straighteners, curling irons, and blow dryers. Instead, embrace natural hairstyles that require less heat and effort.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">7. Nourish Your Hair with Natural Masks</h3>
+                    <p>Treat your hair to a deep-conditioning mask once a week. Ingredients like aloe vera, coconut oil, yogurt, and honey can help restore moisture and repair damage naturally.</p>
+
+                    <h3 class="text-xl font-bold text-gray-900 mt-6 mb-2">8. Eat a Hair-Friendly Diet</h3>
+                    <p>Your diet plays a major role in hair health. Include foods rich in protein, vitamins, and omega-3 fatty acids such as eggs, nuts, fish, leafy greens, and fruits to strengthen your hair from the inside out.</p>
+
+                    <div class="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-600 my-8">
+                        <h4 class="font-bold text-lg text-gray-900 mb-1">Final Thoughts</h4>
+                        <p class="text-gray-700">Summer doesn't have to mean bad hair days. By protecting your hair from the sun, staying hydrated, and following a simple hair care routine, you can enjoy soft, healthy, and shiny hair all season long. A little extra care today can keep your hair looking its best throughout the summer months.</p>
+                    </div>
+                </div>
+
+                <div class="mt-10 bg-gray-100 p-6 rounded text-center">
+                    <p class="font-semibold text-gray-800 mb-3">Is your hair already feeling damaged by intense seasonal summer heat?</p>
+                    <a href="#" onclick="showPage('contact')" class="bg-amber-600 text-white px-6 py-2 rounded font-bold hover:bg-amber-700 transition inline-block">Book a Repairing Hair Spa Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page">
+            <div class="max-w-6xl mx-auto py-16 px-4">
+                <h1 class="text-4xl font-bold text-center text-gray-900 mb-12">Connect With Urban Glow</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Contact Information</h3>
+                        <div class="space-y-4 mb-6">
+                            <p class="flex items-center text-gray-600"><i class="fa-solid fa-phone text-amber-600 w-8 text-lg"></i> +1 (555) 019-2831</p>
+                            <p class="flex items-center text-gray-600"><i class="fa-solid fa-location-dot text-amber-600 w-8 text-lg"></i> 742 Glow Boulevard, Luxury District, NY 10001</p>
+                        </div>
+                        <div class="mb-6">
+                            <a href="https://wa.me/15550192831" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-md font-bold transition inline-flex items-center shadow-sm"><i class="fa-brands fa-whatsapp text-xl mr-2"></i> Chat On WhatsApp</a>
+                        </div>
+                        <div class="bg-gray-300 h-64 rounded-lg flex items-center justify-center text-gray-600 font-semibold border shadow-inner">
+                            <i class="fa-solid fa-map-location-dot mr-2 text-xl"></i> [Embedded Google Interactive Map Grid Location]
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 shadow-md rounded-lg border border-gray-100">
+                        <h3 class="text-2xl font-bold mb-6">Schedule Your Appointment</h3>
+                        <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-1">Full Name</label>
+                                <input type="text" required class="w-full border border-gray-300 px-4 py-2.5 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-1">Phone Number</label>
+                                <input type="tel" required class="w-full border border-gray-300 px-4 py-2.5 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-1">Select Service</label>
+                                <select class="w-full border border-gray-300 px-4 py-2.5 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                    <option>Hair Cut</option>
+                                    <option>Hair Styling</option>
+                                    <option>Hair Coloring</option>
+                                    <option>Hair Spa</option>
+                                    <option>Keratin Treatment</option>
+                                    <option>Smoothening</option>
+                                    <option>Rebonding</option>
+                                    <option>Beard Grooming</option>
+                                    <option>Facial</option>
+                                    <option>Cleanup</option>
+                                    <option>Bridal Makeup</option>
+                                    <option>Party Makeup</option>
+                                    <option>Nail Extension</option>
+                                    <option>Manicure & Pedicure</option>
+                                    <option>Skin Treatment</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-1">Preferred Date & Time</label>
+                                <input type="datetime-local" required class="w-full border border-gray-300 px-4 py-2.5 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <button type="submit" class="w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 rounded-md transition mt-2 shadow">Submit Appointment Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-10 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 text-center space-y-4">
+            <p class="text-white font-bold tracking-wider uppercase">Urban Glow Unisex Salon</p>
+            <p class="text-sm">&copy; 2026 Urban Glow. All Rights Reserved. Crafted for premium search engine performance optimization.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all structural page views
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+
+            // Target and active selected single view state
+            const activePage = document.getElementById(pageId);
+            if(activePage) {
+                activePage.classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Thank you! Your booking request has been securely dispatched to Urban Glow Salon. Our desk coordinator will call you back shortly to lock in your chosen slot.');
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
